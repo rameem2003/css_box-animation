@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    height: 100vh;
+    position: relative;
+}
+
+#wrapper .box{
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    margin: 10px;
+}
+
+#wrapper .box1{
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    animation-name: load_box1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wrapper .box2{
+    background-color: green;
+    top: 50%;
+    right: 50%;
+    animation-name: load_box2;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wrapper .box3{
+    background-color: yellow;
+    bottom: 50%;
+    left: 50%;
+    animation-name: load_box3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+#wrapper .box4{
+    background-color: blue;
+    bottom: 50%;
+    right: 50%;
+    animation-name: load_box4;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes load_box1 {
+    0%{
+        top: 50%;
+        left: 50%; 
+    }
+
+    100%{
+        top: 78%;
+        left: 90%;
+    }
+}
+
+@keyframes load_box2 {
+    0%{
+        top: 50%;
+        right: 50%; 
+    }
+
+    100%{
+        top: 78%;
+        right: 90%;
+    }
+}
+
+@keyframes load_box3 {
+    0%{
+        bottom: 50%;
+        left: 50%;
+    }
+
+    100%{
+        bottom: 78%;
+        left: 90%;
+    }
+}
+
+@keyframes load_box4 {
+    0%{
+        bottom: 50%;
+        right: 50%;
+    }
+
+    100%{
+        bottom: 78%;
+        right: 90%;
+    }
+}
