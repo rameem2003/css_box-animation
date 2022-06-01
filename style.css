@@ -8,7 +8,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: blueviolet; */
     height: 100vh;
     position: relative;
 }
@@ -28,6 +27,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-delay: 2s;
 }
 #wrapper .box2{
     background-color: green;
@@ -37,6 +37,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-delay: 2s;
 }
 #wrapper .box3{
     background-color: yellow;
@@ -46,6 +47,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-delay: 2s;
 }
 #wrapper .box4{
     background-color: blue;
@@ -55,6 +57,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
+    animation-delay: 2s;
 }
 
 
